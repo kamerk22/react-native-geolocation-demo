@@ -6,11 +6,11 @@ import {
   Button
 } from 'react-native';
 import { StackNavigator, TabNavigator } from 'react-navigation';
+import PlaceMap from './PlaceMap';
 
-class FavPlacesScreen extends React.Component {
-    
+class FavPlacesScreen extends React.Component {    
   render() {
-    return <Text>Favorite Places</Text>
+    return <PlaceMap /> 
   }
 }
 
